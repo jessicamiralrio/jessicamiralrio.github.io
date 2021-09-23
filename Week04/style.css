@@ -37,10 +37,12 @@ h1 {
 h2 {
   font-size: 3rem;
   text-align: center;
+  color: #800000;
 }
 
 h3 {
   font-size: 2.2rem;
+  color: #800000;
 }
 
 p, li {
@@ -57,12 +59,12 @@ header {
 }
 
 body > * {
-  background-color: red;
+  background-color: White;
   padding: 1%;
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgba(0,255,0,0.5);
+  background-color: #E9967A;
   padding: 1%;
 }
 
@@ -119,19 +121,22 @@ article, section {
 
 aside {
   flex: 1;
-  margin-left: 10px;
+  align-content: center;
   padding: 1%;
 }
 
 aside a {
   display: block;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
 aside img {
+  display: block;
   max-width: 100%;
 }
+
 
 footer {
   margin-top: 10px;
